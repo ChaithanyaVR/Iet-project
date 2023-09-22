@@ -1,0 +1,33 @@
+.Iet-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .banner-container {
+    padding-top: 3.5em;
+    left: 28%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    max-width: 80%; /* Set maximum width */
+    
+  }
+  .form-main-container{
+    padding: 1em;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .sample-content{
+   width: 50em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+  }
+  
+  .banner-container img {
+    width: 200%;
+    height: 30em; /* Make sure the image takes up 100% of its container */
+  }
+  

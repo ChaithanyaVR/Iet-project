@@ -1,0 +1,18 @@
+.top-header {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px; /* Set padding as needed */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    z-index: 1; /* Ensure it's on top of other elements */
+
+  }
+  
+  .logo img {
+    height: 50px; /* Set your desired height for the logo */
+  }
